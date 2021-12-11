@@ -12,18 +12,18 @@ function closeabout(){
         $("#about_container").css("display","none");
     },800);
 }
-function showwork(){
-    $("#work_container").css("display","inherit");
-    $("#work_container").addClass("animated slideInRight");
+function showskills(){
+    $("#skills_container").css("display","inherit");
+    $("#skills_container").addClass("animated slideInRight");
     setTimeout(function(){
-        $("#work_container").removeClass("animated slideInRight");
+        $("#skills_container").removeClass("animated slideInRight");
     },800);
 }
-function closework(){
-    $("#work_container").addClass("animated slideOutRight");
+function closeskills(){
+    $("#skills_container").addClass("animated slideOutRight");
     setTimeout(function(){
-        $("#work_container").removeClass("animated slideOutRight");
-        $("#work_container").css("display","none");
+        $("#skills_container").removeClass("animated slideOutRight");
+        $("#skills_container").css("display","none");
     },800);
 }
 function showcontact(){
@@ -48,6 +48,6 @@ setTimeout(function(){
       $("#box").css("display","none");
       $("#about").removeClass("animated fadeIn");
       $("#contact").removeClass("animated fadeIn");
-      $("#work").removeClass("animated fadeIn");
+      $("#skills").removeClass("animated fadeIn");
     },1000);
 },1500);
